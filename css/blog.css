@@ -112,22 +112,17 @@ blockquote {
 }
 
 .note {
-	background: #e6ddba none repeat scroll 0 0;
+	background: #E7F2FA;
 	color: #4a4a4a;
 	font-size: 0.9em;
 	margin: 30px 0;
-	width: 80%;
+	padding: 10px;
 }
 
-.note-title {
+.note > .title {
 	color: #333;
-	padding: 0 10px;
-}
-
-.note p {
-	background: rgba(255, 255, 255, 0.8);
-	padding: 12px 10px;
-	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 div.edit-this-page {
