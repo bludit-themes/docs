@@ -129,13 +129,13 @@ div.edit-this-page {
 	text-align: right;
 }
 
-.video-responsive{
+.video-embed {
 	overflow:hidden;
-	padding-bottom:56.25%;
+	padding-bottom: 56.25%; /* 16:9 */
 	position:relative;
 	height:0;
 }
-.video-responsive iframe{
+.video-embed iframe{
 	left:0;
 	top:0;
 	height:100%;
