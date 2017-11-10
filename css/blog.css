@@ -131,7 +131,7 @@ div.edit-this-page {
 
 .video-embed {
 	overflow:hidden;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 62.5%;
 	position:relative;
 	height:0;
 }
