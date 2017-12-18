@@ -78,7 +78,7 @@ pre, code {
     font-family: Consolas,"Liberation Mono",Courier,monospace;
 }
 pre {
-    background: #f6f6f6 none repeat scroll 0 0;
+    background: #f8f8f8 none repeat scroll 0 0;
     border: 1px solid #e7e9ee;
     color: #4d4d4c;
     line-height: 21px;
@@ -98,7 +98,7 @@ pre {
 }
 
 code {
-	background: #f6f6f6;
+	background: #f8f8f8;
 	padding: 4px;
 	font-size: 14px !important;
 }

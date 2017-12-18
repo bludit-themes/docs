@@ -37,5 +37,7 @@
 <!-- Plugins Site Body End -->
 <?php Theme::plugins('siteBodyEnd') ?>
 
+<script>hljs.initHighlightingOnLoad();</script>
+
 </body>
 </html>

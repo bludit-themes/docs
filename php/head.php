@@ -10,12 +10,9 @@
         echo Theme::css('css/pure-min.css');
 	echo Theme::css('css/grids-responsive-min.css');
 	echo Theme::css('css/blog.css');
-	echo Theme::css('css/rainbow-github.css');
 
 	echo Theme::fontAwesome();
 	echo Theme::jquery();
-
-	echo Theme::js('js/rainbow-custom.min.js');
 
         // Load plugins with the hook siteHead
         Theme::plugins('siteHead');
@@ -29,3 +26,6 @@
 		font-family: 'Open Sans', sans-serif;
 	}
 </style>
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
